@@ -4,7 +4,7 @@
 Weeks 1 - 4
 
 ## Description
-When most people think of the “Internet,” their mind immediately conjures up their web browser. We dive into detail about how the browser works and what exactly the source code comprising a web page does.
+When most people think of the “Internet,” their mind immediately conjures up their web browser. In this module, we will dive into more detail about how the browser works and what exactly the source code comprising a web page does.
 
 ## Weekly content
 * [Week 1: Building a static web page with HTML and CSS](./01-cmd-git-html-css)
