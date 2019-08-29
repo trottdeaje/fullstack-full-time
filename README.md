@@ -12,17 +12,17 @@ The languages you learn matters least. Programming is about abstractions and exp
 
 ## Schedule
 
-* [Module 1: Mastering the browser](./class-contents/mod-01-mastering-the-browser)
+* [Module 1: Mastering the browser](./class-contents/mod-1-mastering-the-browser)
     - _Timeline_: Weeks 1-4
     - _Deliverables_:
-        * [Homework 1: Personal portfolio](./class-contents/mod-01-mastering-the-browser/01-cmd-git-html-css/deliverables/hmwk-1-personal-portfolio.md)
+        * [Homework 1: Personal portfolio](./class-contents/mod-1-mastering-the-browser/01-cmd-git-html-css/deliverables/hmwk-1-personal-portfolio.md)
 
-        * [Homework 2: Javascript calculator](./class-contents/mod-01-mastering-the-browser/02-javascript-jquery/deliverables/hmwk-2-javascript-calculator.md)
+        * [Homework 2: Javascript calculator](./class-contents/mod-1-mastering-the-browser/02-javascript-jquery/deliverables/hmwk-2-javascript-calculator.md)
 
-        * [Homework 3: API dynamic consumer](./class-contents/mod-01-mastering-the-browser/03-api-fetch-ajax/deliverables/hmwk-3-api-dynamic-consumer.md)
+        * [Homework 3: API dynamic consumer](./class-contents/mod-1-mastering-the-browser/03-api-fetch-ajax/deliverables/hmwk-3-api-dynamic-consumer.md)
 
-        * [Homework 4: Dynamic voting survey](./class-contents/mod-01-mastering-the-browser/04-localstorage-firebase/deliverables/hmwk-4-dynamic-voting-survey.md)
+        * [Homework 4: Dynamic voting survey](./class-contents/mod-1-mastering-the-browser/04-localstorage-firebase/deliverables/hmwk-4-dynamic-voting-survey.md)
 
-        * [Project 1](./class-contents/mod-01-mastering-the-browser/project-1/instructions.md)
+        * [Project 1](./class-contents/mod-1-mastering-the-browser/project-1/instructions.md)
         
 
