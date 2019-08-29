@@ -17,7 +17,7 @@ The languages you learn matters least. Programming is about abstractions and exp
     - _Deliverables_:
         * [Homework 1: Personal portfolio](./class-contents/mod-1-mastering-the-browser/01-cmd-git-html-css/deliverables/hmwk-1-personal-portfolio.md)
 
-        * [Homework 2: Javascript calculator](./class-contents/mod-1-mastering-the-browser/02-javascript-jquery/deliverables/hmwk-2-javascript-calculator.md)
+        * [Homework 2: Javascript calculator](./class-contents/mod-1-mastering-the-browser/02-javascript-jquery/deliverables/hmwk-2-hours-from-now-calculator.md)
 
         * [Homework 3: API dynamic consumer](./class-contents/mod-1-mastering-the-browser/03-api-fetch-ajax/deliverables/hmwk-3-api-dynamic-consumer.md)
 

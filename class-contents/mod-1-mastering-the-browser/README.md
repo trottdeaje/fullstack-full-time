@@ -13,7 +13,7 @@ When most people think of the “Internet,” their mind immediately conjures up
 * [Week 4: Client side data persistence](./04-localstorage-firebase)
 
 ## Deliverables
-* [Homework 1: Build a personal portfolio](./01-cmd-git-html-css/deliverables/hmwk-1-personal-portfolio.md)
-* [Homework 2: Build a Javascript calculator](./02-javascript-jquery/deliverables/hmwk-2-javascript-calculator.md)
-* [Homework 3: Build a dynamic page with any public API](./03-api-fetch-ajax/deliverables/hmwk-3-api-dynamic-consumer.md)
-* [Homework 4: Build a dynmaic voting survey web page](./04-localstorage-firebase/deliverables/hmwk-4-dynamic-voting-survey.md)
+* [Homework 1: Personal portfolio](./01-cmd-git-html-css/deliverables/hmwk-1-personal-portfolio.md)
+* [Homework 2: Hours from now calculator](./02-javascript-jquery/deliverables/hmwk-2-hours-from-now-calculator.md)
+* [Homework 3: Dynamic API consumer](./03-api-fetch-ajax/deliverables/hmwk-3-api-dynamic-consumer.md)
+* [Homework 4: Dynmaic voting survey](./04-localstorage-firebase/deliverables/hmwk-4-dynamic-voting-survey.md)
