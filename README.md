@@ -26,14 +26,14 @@ The languages you learn matters least. Programming is about abstractions and exp
         * [Project 1](./class-contents/mod-1-mastering-the-browser/project-1/instructions.md)
         
 * [Module 2: Server side](./class-contents/mod-2-server-side)
-- _Timeline_: Weeks 5-8
+    - _Timeline_: Weeks 5-8
 
 * [Module 3: Fullstack with React](./class-contents/mod-3-fullstack-with-react)
-- _Timeline_: Weeks 9-12
+    - _Timeline_: Weeks 9-12
 
 * [Module 4: Computer Science Fundamentals](./class-contents/mod-4-comp-science-fundamentals)
-- _Timeline_: Weeks 13
+    - _Timeline_: Weeks 13
 
 * [Module 5: Final projects & polishing portfolios](./class-contents/mod-5-final-projects-polishing-portfolios)
-- _Timeline_: Weeks 14-15
+    - _Timeline_: Weeks 14-15
 
