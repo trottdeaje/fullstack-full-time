@@ -98,7 +98,7 @@ When you are done, your file structure should look like the picture below
 
         - Use Javascript `setInterval`, `moment.js`, and jQuery to get the user current local time every second, insert it in `span#local-time-calculated` of the dynamically created `localTimeElement` and insert the dynamically created `localTimeElement` into the `div#local-time-container` you created in your `index.html`
 
-    * STEP 2: Use the jQuery `$(yourIdOrClass).on('yourEvent', function(){})` `click` event handler on the calculate button or `submit` event handler on your form to grab the user's inputs in the hours and minutes inputs when the user clicks the `Calculate` button and use Moment.js to add the user inputs to their current local time to get the time-from-now
+    * STEP 2: Use the jQuery `$(yourIdOrClass).on('yourEvent', function(){})` `click` event handler on the calculate button or `submit` event handler on your form to grab the user's inputs in the hours and minutes inputs when the user clicks the `Calculate` button and use Moment.js to add the user inputs to their current local time to get the time-from-now, use jQuery to dynamically create an element with the calculated time-from-now value and insert it in the div you prepared in your HTML
         - Create a function name `createCalculatedTimeFromNowElement` and inside of it: 
             - Use jQuery to get the values in `#input-hours` and `#input-mins` and save them in 2 variables (remember that `.val()` jQuery function returns a string, so cast their values to `Number` using Javascript)
             
