@@ -21,10 +21,6 @@ As shown in the gif below, your "time from  now" calculator page will:
 
 As shown in the screenshots in the *`styles.css`* section below, use a combination of CSS Flexbox and media queries to make your page responsive to different screen sizes.
 
-BONUS: When you have met the requirements and still have time, here are some stretch goals:
-* Allow your users to choose whether they want to know the time from their local time either forward or backward.
-* Allow your users to choose between either a 24hr or 12hr format for their time
-
 ## Instructions
 
 1. File structure
@@ -112,7 +108,9 @@ When you are done, your file structure should look like the picture below
         - If the time-from-now goes over 1 year, your calculated time should be in the following format: `hh:mm:ss +Y years` where Y is the number of years
         - If the time-from-now goes over 1 year and 1 day, your calculated time should be in the following format: `hh:mm:ss +Y and X days` where Y is the number of years and X is the number of days
 
-
+    * STEP 4: BONUS (stretch goals when you have met the requirements and still have time):
+        - Allow your users to choose whether they want to know the time from their local time either forward or backward.
+        - Allow your users to choose between either a 24hr or 12hr format for their time
 
 3. Deployment
 Deploy your portfolio page to [Github pages](https://pages.github.com/) and submit your project link in the [`#hmwk-2-time-from-now-calculator-page-submissions` Slack channel](https://app.slack.com/client/TLKSMB8R4/CMY9QDHDW)
