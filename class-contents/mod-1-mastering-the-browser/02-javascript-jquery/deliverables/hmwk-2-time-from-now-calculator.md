@@ -104,9 +104,8 @@ When you are done, your file structure should look like the picture below
             
             - Use Moment.js to get the user current local time and add the hours and minutes input values
 
-            - Use jQuery to dynamically create and return an HTML `<p></p>` element that holds the structure of the calculated time-from-now: `<p id='calculated-time-from-now-text'>[INPUT_HOURS] hours and [INPUT_MINS] mins from now is:
-                <span id='time-from-now-calculated' class='calculated-time'>[CALCULATED_TIME_FROM_NOW]</span>
-            </p>` where `[INPUT_HOURS]` and `[INPUT_MINS]` are the values of the user hours and minutes inputs respectively and the `[CALCULATED_TIME_FROM_NOW]` the time-from-now value calculated using Moment.js
+            - Use jQuery to dynamically create and return an HTML `<p></p>` element that holds the structure of the calculated time-from-now: `<p id='calculated-time-from-now-text'>{INPUT_HOURS} hours and {INPUT_MINS} mins from now is:<span id='time-from-now-calculated' class='calculated-time'>{CALCULATED_TIME_FROM_NOW}</span>
+            </p>` where `{INPUT_HOURS}` and `{INPUT_MINS}` are the values of the user hours and minutes inputs respectively and the `{CALCULATED_TIME_FROM_NOW}` the time-from-now value calculated using Moment.js
 
     * STEP 3: After you get the local time and the time-from-now to show up on the page, start thinking about formatting them to match the page overview above
         - Your times should be in a 24hrs format: `hh:mm:ss`
