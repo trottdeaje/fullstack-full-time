@@ -19,10 +19,7 @@ As shown in the gif below, your "time from  now" calculator page will:
 
 ![Time from now page overview](./time-from-now-page-overview.gif)
 
-As shown in the gif belwo, use a combination of Bootstrap and CSS media queries to make your page responsive to different screen sizes.
-
-![Time fron now page responsive overview](./time-from-now-page-responsive-overview.gif)
-
+As shown in the screenshots in the *`styles.css`* section below, use a combination of Bootstrap and CSS media queries to make your page responsive to different screen sizes.
 
 BONUS: When you have met the requirements and still have time, here are some stretch goals:
 * Allow your users to choose whether they want to know the time from their local time either forward or backward.
