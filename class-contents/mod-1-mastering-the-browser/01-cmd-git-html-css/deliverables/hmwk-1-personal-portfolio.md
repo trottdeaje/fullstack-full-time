@@ -3,7 +3,7 @@
 ## Overview
 You now know how to navigate around files on your computer using the command line. You have also learned how web pages are layed out using HTML. You also know how to make them look beautiful with CSS styles by specifying how you want your HTML `<tags/>`, `#ids` and `.classes` to look. The concept of a responsive web page is not strange to you anymore. You are well aware of the varying sizes of devices and can build responsive web pages using CSS media queries and/or CSS libraries like [Bootstrap](https://getbootstrap.com/). And when you are done building your web page, you now know how to publish it for the whole world to see using [Github pages](https://pages.github.com/).
 
-During Homework 1, you will put all the above to practice and build yourself a portfolio page. This portfolio page will be a work in progress through out the duration of the class. By the end of this homework you will have built the first version of the portfolio you will share with potential employers and/or clients when you are done with the bootcamp.
+```During Homework 1, you will put all the above to practice and build yourself a portfolio page. This portfolio page will be a work in progress through out the duration of the class. By the end of this homework you will have built the first version of the portfolio you will share with potential employers and/or clients when you are done with the bootcamp.```
 
 This time around, your portfolio page will not have a ton of projects to show off because you have not built any yet. Neither will it have a ton of reviews/testimonials/recommendations. But as the class progresses and you build more projects, you will be adding them to your portfolio. 
 
@@ -58,23 +58,25 @@ Your portfolio page should be responsive to accomodate different screen sizes as
 ## Instructions
 
 1. File structure
-    * Using the terminal, create a new directory on your computer and name it `hmwk-1-personal-portfolio`
+    * On Github, create a new repository and name it `hmwk-1-personal-portfolio`
 
+    * Using the terminal, navigate to where you want to save your homework 1 and `git clone` your newly create repository there. This will create a new directory on your computer with the name `hmwk-1-personal-portfolio`
+
+    * Using the terminal, `cd` into your `hmwk-1-personal-portfolio` directory
+    
     * Using the terminal, create 2 files inside of your new homework directory and name them `index.html` and `styles.css` in which you will write your portfolio page HTML and CSS
 
     * Using the terminal, create 1 sub-directory inside of your new homework directory and name it `resources`. This is where your local resources (images, etc) will live
 
     When you are done, your file structure should look like the picture below 
-    ![this](./file-structure.png)
+    ![this](./hmwk-1-file-structure.png)
 
 2. Page layout (`index.html`)
     * In the `<head></head>`:
         - Remember to link to Bootstrap CSS as specified [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-        - Remember to link to your `styles.css` stylesheet
+        - Remember to link to your `styles.css` stylesheet using the `<link/>` tag
         - Remember to link to any third party font if you are using any
         - Remember to give a `<title></title>` to your page
-
-    * Before closing of your `</body>`, remember to include Bootstrap JS as specified [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
     * In the `<body></body>`:
         - Use [Bootstrap navbar](https://getbootstrap.com/docs/4.3/components/navbar/) to create your navigation bar with your name and 4 navigation tabs: `About`, `Testimonials`, `Projects`, and `Contact`. Remember that you can copy paste the code from the Bootstrap page and modify it to fit your page's needs.
@@ -90,4 +92,11 @@ Your portfolio page should be responsive to accomodate different screen sizes as
             * Create a Google Sheet for the responses your visitors will enter.
             * Look up how to embed a Google Form on a web page.
 
-3. HAVE FUN AND HELP EACH OTHER OUT!
+        - Before closing of your `</body>`, remember:
+            - To include Bootstrap JS as specified [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+            - That if you forget to include the jQuery script, some Bootstrap features like collapsing the navbar won't work
+
+3. Deployment
+Deploy your portfolio page to [Github pages](https://pages.github.com/) and submit your project link in the [`#hmwk-1-personal-portfolio-page-submissions` Slack channel](https://app.slack.com/client/TLKSMB8R4/CMK807S0K)
+
+4. HAVE FUN AND HELP EACH OTHER OUT!

@@ -9,4 +9,5 @@
 * Feel comfortable hosting front-end projects using Github Pages
 * Feel comfortable using the Chrome Dev Tools’s Console and Elements tabs to inspect and play around with DOM elements
 
-
+## Deliverable
+[Homework 1: Personal portfolio](./deliverables/hmwk-1-personal-portfolio.md)

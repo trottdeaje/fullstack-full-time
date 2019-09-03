@@ -17,13 +17,15 @@ The languages you learn matters least. Programming is about abstractions and exp
     - _Deliverables_:
         * [Homework 1: Personal portfolio](./class-contents/mod-1-mastering-the-browser/01-cmd-git-html-css/deliverables/hmwk-1-personal-portfolio.md)
 
-        * [Homework 2: Javascript calculator](./class-contents/mod-1-mastering-the-browser/02-javascript-jquery/deliverables/hmwk-2-hours-from-now-calculator.md)
+        * [Homework 2: Time from now calculator](./class-contents/mod-1-mastering-the-browser/02-javascript-jquery/deliverables/hmwk-2-time-from-now-calculator.md)
 
         * [Homework 3: API dynamic consumer](./class-contents/mod-1-mastering-the-browser/03-api-fetch-ajax/deliverables/hmwk-3-api-dynamic-consumer.md)
 
         * [Homework 4: Dynamic voting survey](./class-contents/mod-1-mastering-the-browser/04-localstorage-firebase/deliverables/hmwk-4-dynamic-voting-survey.md)
 
         * [Project 1](./class-contents/mod-1-mastering-the-browser/project-1/instructions.md)
+
+        * Responsive portfolio with [Project 1](./class-contents/mod-1-mastering-the-browser/project-1/instructions.md) with all homework projects
         
 * [Module 2: Server side](./class-contents/mod-2-server-side)
     - _Timeline_: Weeks 5-8
