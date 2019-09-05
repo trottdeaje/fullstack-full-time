@@ -1,7 +1,7 @@
-# Homework 2: Build a "time from now" calculator page
+# Homework 2: Build a "time from now" calculator interactive page
 
 ## Overview
-Before this week, all you could be build were static web pages with no user interactivity. All you knew before this week was HTML and CSS.
+Before this week, all you could build were static web pages with no user interactivity. All you knew before this week was HTML and CSS.
 
 This week, you added Javascript to your web development languages toolbox. You now know how to add user interactivity to your web pages. You've learned about creating and using variables, conditionals, loops, arrays, and functions in Javascript. You now know of the power of Javascript that makes it more than just a scripting language: manipulating the DOM. You also know about jQuery and how it makes manipulating the DOM with Javascript easier with the `$()` function. You've seen and practiced how to handle events with jQuery as well, which is at the heart of making a web page interactive.
 
@@ -10,7 +10,7 @@ This week, you added Javascript to your web development languages toolbox. You n
 In this homework, you will also use [Moment.js library](https://momentjs.com/) to help you manipulate time data
 
 ## Page overview
-NOTE: This overview outlines the minimum requirements. When you have met the requirements and still have time, you are encouraged to go above and beyond with your creativity and make this portfolio as unique to you as you can. For example, you can use different background colors of your liking by using [RapidTables](https://www.rapidtables.com/web/color/html-color-codes.html) or Chrome extensions like [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) to pick any color off your favorite websites. Likewise, feel free to get creative with your fonts by using any font of your liking from places like [Google Fonts](https://fonts.google.com/)
+NOTE: This overview outlines the minimum requirements. When you have met the requirements and still have time, you are encouraged to go above and beyond with your creativity and make this calculator as unique to you as you can. For example, you can use different background colors of your liking by using [RapidTables](https://www.rapidtables.com/web/color/html-color-codes.html) or Chrome extensions like [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) to pick any color off your favorite websites. Likewise, feel free to get creative with your fonts by using any font of your liking from places like [Google Fonts](https://fonts.google.com/)
 
 As shown in the gif below, your "time from  now" calculator page will:
 * Always show the user's current local time. 
@@ -36,7 +36,7 @@ When you are done, your file structure should look like the picture below
 ![this](./hmwk-2-file-structure.png)
 
 2. Page layout
-- *`index.html`*
+- **`index.html`**
     * In the `<head></head>`:
         - Remember to link to Bootstrap CSS as specified [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
         - Remember to link to your `styles.css` stylesheet using the `<link/>` tag
@@ -59,32 +59,32 @@ When you are done, your file structure should look like the picture below
 
                 - The `#local-time-container` div will hold the user's current local time dynamically calculated using jQuery
 
+        - Media queries breakpoints
+            - `max-width: 710px`
+                * Arrange the calculated time-from-now text content vertically as shown in the screenshot below
+
+                ![Calculated time from now content arranged vertically](./calculated-time-from-now-content-arranged-vertically.png)
+            
+            - `max-width: 568px`
+                * Arrange the hours, minutes inputs and the calculate button vertically as shown in the screenshot below
+
+                ![Hours, minutes inputs and the calculate button arranged vertically](./hours-minutes-inputs-calculate-button-arranged-vertically.png)
+
+            - `max-width: 342px`
+                * Arrange the calculated user current local time content vertically as shown in the screenshot below
+
+                ![Calculated user current local time arranged vertically](./calculated-user-local-time-arranged-vertically.png)
+
         - Before closing of your `</body>`, remember:
             - To include your `scripts.js` using the `<script>` tag
             - To include Bootstrap JS as specified [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
             - To include Moment.js CDN `<script src=" https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js "></script>`
             - That if you forget to include the jQuery script, you will get errors like the `$` is not defined
 
-- *`styles.css`*
+- **`styles.css`**
     * Use this [CSS Reset](https://meyerweb.com/eric/tools/css/reset/) to normalize your CSS
 
-    * Media queries breakpoints
-        - `max-width: 710px`
-            * Arrange the calculated time-from-now text content vertically as shown in the screenshot below
-
-            ![Calculated time from now content arranged vertically](./calculated-time-from-now-content-arranged-vertically.png)
-        
-        - `max-width: 568px`
-            * Arrange the hours, minutes inputs and the calculate button vertically as shown in the screenshot below
-
-            ![Hours, minutes inputs and the calculate button arranged vertically](./hours-minutes-inputs-calculate-button-arranged-vertically.png)
-
-        - `max-width: 342px`
-            * Arrange the calculated user current local time content vertically as shown in the screenshot below
-
-            ![Calculated user current local time arranged vertically](./calculated-user-local-time-arranged-vertically.png)
-
-- *`scripts.js`*
+- **`scripts.js`**
     * Use jQuery `$(document).ready(function(){})` at the top of your file and write your js code inside the `{}` to make sure that your code only executes after the DOM is ready.
 
     * STEP 1: Use Javascript `setInterval` function to get the user local time every second and use jQuery to dynamically populate `div#local-time-container` with the local time

@@ -19,7 +19,7 @@ The languages you learn matters least. Programming is about abstractions and exp
 
         * [Homework 2: Time from now calculator](./class-contents/mod-1-mastering-the-browser/02-javascript-jquery/deliverables/hmwk-2-time-from-now-calculator.md)
 
-        * [Homework 3: API dynamic consumer](./class-contents/mod-1-mastering-the-browser/03-api-fetch-ajax/deliverables/hmwk-3-api-dynamic-consumer.md)
+        * [Homework 3: Top 10 songs by country](./class-contents/mod-1-mastering-the-browser/03-api-fetch-ajax/deliverables/hmwk-3-top-10-songs-by-country.md)
 
         * [Homework 4: Dynamic voting survey](./class-contents/mod-1-mastering-the-browser/04-localstorage-firebase/deliverables/hmwk-4-dynamic-voting-survey.md)
 

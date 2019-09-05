@@ -1,4 +1,4 @@
-# Week 1: Building a dynamic web page with Javascript and JQuery
+# Week 2: Building an interactive web page with Javascript and JQuery
 
 ## Outcomes:
 * Feel comfortable with Javascript variables, if statements, loops, arrays, objects, variable scope, and functions
