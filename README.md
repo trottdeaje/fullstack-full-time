@@ -21,7 +21,7 @@ The languages you learn matters least. Programming is about abstractions and exp
 
         * [Homework 3: Top 10 songs by country](./class-contents/mod-1-mastering-the-browser/03-api-fetch-ajax/deliverables/hmwk-3-top-10-songs-by-country.md)
 
-        * [Homework 4: Dynamic voting survey](./class-contents/mod-1-mastering-the-browser/04-localstorage-firebase/deliverables/hmwk-4-dynamic-voting-survey.md)
+        * [Homework 4: Best Pride Parade photo vote](./class-contents/mod-1-mastering-the-browser/04-localstorage-firebase/deliverables/hmwk-4-best-pride-parade-photo-vote.md)
 
         * [Project 1](./class-contents/mod-1-mastering-the-browser/project-1/instructions.md)
 
