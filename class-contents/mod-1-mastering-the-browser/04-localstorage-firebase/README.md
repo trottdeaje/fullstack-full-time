@@ -1,4 +1,4 @@
-# Week 4: Building a dynamic web page using Firebase and client-side persistence
+# Week 4: Making a static web page dynamic using Firebase and client-side persistence
 
 ## Outcomes:
 * Feel comfortable using  `localStorage`, `sessionStorage`, and `cookies` for client side data persistence
@@ -6,4 +6,4 @@
 
 
 ## Deliverable
-[Homework 4: Best Pride Parade photo vote](./deliverables/hmwk-4-best-pride-pride-parade-photo-vote.md)
+[Homework 4: Best 2019 Pride Parade Photo voting survey](./deliverables/hmwk-4-best-pride-pride-parade-photo-vote.md)

@@ -1,4 +1,4 @@
-# Homework 4: Making a static "Best 2019 Pride Parade photo vote" web page dynamic using Firebase and localStorage
+# Homework 4: Making a static "Best 2019 Pride Parade Photo" voting survey web page dynamic using Firebase and localStorage
 
 ## Overview
 With APIs, you learned how to connect your web apps to the outside world and make them dynamic. However, with just third-party APIs, you can only show what those APIs give you. Thanks to data persistence services like Firebase RealTime Database, you now know how to quickly use a Back-End-As-A-Service tool to persist data and use it in your application. You now also know how to use client-side persistence solutions like `localStorage`, `sessionStorage` and `cookies` to save information your web applications need to persist.
