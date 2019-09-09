@@ -38,7 +38,7 @@ As shown in the page overview gif above, in this homework you are to build a pag
 1. File structure
     * On Github, create a new repository and name it `hmwk-4-best-pride-photo-vote`. Clone this repo to your computer
     
-    * Copy the content of the `hmwk-4-best-pride-parade-photo-vote-starter-files` directory and paste them into your `hmwk-4-best-pride-photo-vote` directory using the terminal
+    * Copy the content of the [hmwk-4-best-pride-parade-photo-vote-starter-files directory](./hmwk-4-best-pride-parade-photo-vote-starter-files) and paste them into your `hmwk-4-best-pride-photo-vote` directory using the terminal
 
 2. Page layout
     - **`index.html`** & **`styles.css`**
