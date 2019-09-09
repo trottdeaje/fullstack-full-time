@@ -6,4 +6,4 @@
 
 
 ## Deliverable
-[Homework 4: Best 2019 Pride Parade Photo voting survey](./deliverables/hmwk-4-best-pride-pride-parade-photo-vote.md)
+[Homework 4: Best 2019 Pride Parade Photo voting survey](./04-localstorage-firebase/deliverables/hmwk-4-best-pride-pride-parade-photo-vote.md)
