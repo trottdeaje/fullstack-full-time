@@ -1,0 +1,17 @@
+#blue_border {
+    border: 1px solid blue
+}
+
+#red_border {
+    border: 1px solid red
+}
+
+#green_border {
+    border: 1px solid green
+}
+
+.container {
+    width: fit-content;
+    text-align: center;
+    margin: 15px;
+}
