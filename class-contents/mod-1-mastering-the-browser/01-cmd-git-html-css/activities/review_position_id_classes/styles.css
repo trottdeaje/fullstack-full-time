@@ -1,0 +1,65 @@
+#header {
+    background-color: #666;
+    padding: 2px
+}
+
+#header_brand_text {
+    line-height: 0.5;
+}
+
+.link_with_no_text_decoration {
+    text-decoration: none;
+}
+
+#about_container {
+    height: 100vh;
+    padding-top: 10%;
+}
+
+#about_photo {
+    height: 50%;
+    background-image: url('./resources/northwestern.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#testimonies_container {
+    background-color: #be3143;
+    border: 1px solid white;
+    margin-bottom: 30px"
+
+}
+
+.testimonial_card {
+    border: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.inline_element {
+    display: inline;
+}
+
+.margin_2px {
+    margin: 2px;
+}
+
+.no_list_style {
+    list-style: none;
+}
+
+.padding_15px {
+    padding: 15px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.white_color {
+    color: white
+}
+
+.horizontally_centered_text {
+    text-align: center;
+}
