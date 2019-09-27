@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Students Names While Loop</title>
+</head>
+
+<body>
+    <script>
+        var studentsNames = [];
+        var classSize = 3;
+
+        while (studentsNames.length < classSize) {
+            var newStudentName = prompt("Enter the name of a student");
+            studentsNames.push(newStudentName);
+        }
+
+        alert(`The students in this class are: ${studentsNames.join(", ")}`);
+    </script>
+</body>
+
+</html>

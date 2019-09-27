@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<body>
+    <script>
+        var studentsNames = [];
+
+        // Create an index to increment for every new student
+        var idx = 0;
+
+        while (idx < classSize) {
+            var newStudentName = prompt("Enter the name of a student");
+
+            // Add the new student to the studentsNames array
+            studentsNames[idx] = newStudentName;
+
+            // Increment the index for the next student
+            idx++;
+        }
+
+        alert(`The students in this class are: ${studentsNames.join(", ")}`);
+    </script>
+</body>
+
+</html>

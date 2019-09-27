@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Students Names For Loop</title>
+</head>
+
+<body>
+    <script>
+        var studentsNames = [];
+
+        for (var idx = 0; idx < classSize; idx++) {
+            var newStudentName = prompt("Enter the name of a student");
+            studentsNames[idx] = newStudentName;
+        }
+
+        alert(`The students in this class are: ${studentsNames.join(", ")}`);
+    </script>
+</body>
+
+</html>
