@@ -1,0 +1,23 @@
+.has_bgImage {
+    background-image: url("https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.red_border {
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+
+#unique_bg_color_green {
+    background-color: green;
+}
+
+#centered_text {
+    text-align: center;
+}
+
+#fat {
+    padding: 20em
+}

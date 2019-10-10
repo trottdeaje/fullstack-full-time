@@ -1,0 +1,151 @@
+<!-- Create an HTML page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML + CSS</title> <!-- Change the title of the page to "HTML + CSS" -->
+
+    <!-- Linking to our CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- In the body, create 3 divs-->
+    <!-- 
+        - background color of #666
+        - all around padding of 2px 
+    -->
+    <section id="header">
+        <!-- 1st section, 1 anchor tag and 1 div-->
+        <!-- 
+            - line height of 0.5
+            - remove the underline
+            give its content a white color
+         -->
+        <a href="#" id="header_brand_text" class="link_with_no_text_decoration white_color">
+            <!-- Make the anchor tag have an href of # and have 2 paragraph tags inside of it: one with your full name and another one with "Web Developer" -->
+            <p>Nelly Sugu</p>
+            <p>Web Developer</p>
+        </a>
+
+        <!-- inner div -->
+        <!-- 
+            - align its text in the center
+         -->
+        <div class="horizontally_centered_text">
+
+            <!-- In the inner div, create an unordered list with two list items  -->
+            <!-- 
+                - remove the bullet points from its children
+             -->
+            <ul class="no_list_style">
+                <!-- 
+                    - align the 2 list items to be on the same line horizontally and give each a margin of 2px
+                 -->
+                <li class="inline_element margin_2px">
+                    <!-- In the 1st list item, create an anchor tag with an href of # and with "About" as its content -->
+                    <a href="#" class="white_color">About</a>
+                </li>
+                <li class="inline_element margin_2px">
+                    <!-- In the 2nd list item, create an anchor tag with an href of # and with "Testimonials" as its content -->
+                    <a href="#" class="white_color">Testimonials</a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- 2nd section -->
+    <section id="about_container" class="horizontally_centered_text">
+        <!-- In the 2nd section, create 2 divs  -->
+        <div id="about_photo">
+        </div>
+        <!-- Create the 1st inner div and leave it empty -->
+        <div>
+            <!-- In the 2nd inner div, create 2 paragraph tags -->
+            <p>
+                <!-- Give 1st paragraph "Hi, I am firstname lastname" as its content -->
+                Hi, I am Nelly Sugu
+            </p>
+            <p>
+                <!-- In the 2nd paragraph, put a little something about yourself -->
+                I &hearts; building cool stuff & teaching
+                others how to do it
+            </p>
+        </div>
+    </section>
+
+    <!-- 3rd section -->
+    <!-- 
+        - give it a background color of #be3143
+        - give it a padding of 15px
+     -->
+    <section id="testimonies_container" class="padding_15px">
+        <!-- Create an h2 with "Testimonials" as its content -->
+        <h2 class="white_color horizontally_centered_text">Testimonials</h2>
+
+        <div>
+            <!-- In the 3rd section, go to http://testimonial-generator.com/index.php, create 10 testimanials for "firstname web developer" and create 10 paragphs for each testimonial-->
+            <div class="testimonial_card padding_15px">
+                "You guys rock! Nelly web developer was worth a fortune to my company. Thank You!"
+                - <span class="italic white_color">Beauregard A.</span>
+            </div>
+
+            <div class="testimonial_card padding_15px">
+                "Nelly web developer impressed me on multiple levels. Nelly web developer is the next killer app."
+                - <span class="italic white_color">Brianne H.</span>
+            </div>
+
+            <div class="testimonial_card padding_15px">
+                "We have no regrets! We've seen amazing results already."
+                - <span class="italic white_color">Marjie Y.</span>
+            </div>
+
+            <div class="testimonial_card padding_15px">
+                "You guys rock! Thanks to Nelly web developer, we've just launched our 5th website!"
+                - <span class="italic white_color">Carolynn W.</span>
+            </div>
+
+            <div class="testimonial_card padding_15px">
+                "Buy this now. Great job, I will definitely be ordering again! Since I invested in Nelly web developer I
+                made over 100,000 dollars profits."
+                - <span class="italic white_color">Petunia F.</span>
+            </div>
+
+            <div class="testimonial_card padding_15px">
+                "I will refer everyone I know."
+                - <span class="italic white_color">Mohamad A.</span>
+            </div>
+
+            <div class="testimonial_card padding_15px">
+                "I STRONGLY recommend Nelly web developer to EVERYONE interested in running a successful online
+                business!
+                We've seen amazing results already."
+                - <span class="italic white_color">Chane D.</span>
+            </div>
+
+            <div class="testimonial_card padding_15px">"Definitely worth the investment. I
+                use Nelly web developer often. You've saved our business!"
+                - <span class="italic white_color">Karly F.</span>
+            </div>
+
+            <div class="testimonial_card padding_15px">
+                "Thanks to Nelly web developer, we've just launched our 5th website! Very easy to use. I don't always
+                clop,
+                but when I do, it's because of Nelly web developer. I was amazed at the quality of Nelly web developer."
+                - <span class="italic white_color">Rockwell B.</span>
+            </div>
+
+            <div class="testimonial_card padding_15px">
+                "Wow what great service, I love it! Nelly web developer was worth a fortune to my company. I made back
+                the
+                purchase price in just 48 hours!" - <span class="italic white_color">Oralie .</span>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

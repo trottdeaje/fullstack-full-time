@@ -1,0 +1,30 @@
+.outter_container {
+    border: 1px solid black;
+    height: 100vh
+}
+
+.inner_div {
+    height: 300px;
+    margin: 15px;
+    width: 50%;
+}
+
+#inner_one {
+    border: 1px solid red;
+
+}
+
+#inner_two {
+    border: 1px solid blue;
+
+}
+
+#blue_border {
+    position: relative;
+}
+
+#black_border {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

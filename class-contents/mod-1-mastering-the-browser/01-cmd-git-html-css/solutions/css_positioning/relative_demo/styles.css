@@ -11,12 +11,5 @@
 }
 
 .container {
-    width: fit-content;
-    text-align: center;
     margin: 15px;
-}
-
-.right_skewed {
-    position: relative;
-    left: 100px;
 }
