@@ -1,0 +1,219 @@
+<!-- Create an HTML page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML + CSS</title> <!-- Change the title of the page to "HTML + CSS" -->
+
+    <!-- Linking Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Linking to our CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- In the body, create 3 divs-->
+    <!-- 
+        - background color of #666
+        - all around padding of 2px 
+    -->
+    <section id="header">
+        <!-- 1st section, 1 anchor tag and 1 div-->
+        <!-- 
+            - line height of 0.5
+            - remove the underline
+            give its content a white color
+         -->
+        <!-- Use Bootstrap Navbar with brand that can be toggled-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse spaced_out" id="navbarTogglerDemo01">
+                <a class="navbar-brand link_with_no_text_decoration white_color" id="header_brand_text"
+                    href="#about_container">
+                    <!-- Make the anchor tag have an href of # and have 2 paragraph tags inside of it: one with your full name and another one with "Web Developer" -->
+                    <p class="margin_15px">Nelly Sugu</p>
+                    <p class="margin_15px">Web Developer</p>
+                </a>
+                <div class="horizontally_centered_text">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link white_color" href="#about_container">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white_color" href="#testimonies_container">Testimonials</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- 2nd section -->
+    <section id="about_container" class="horizontally_centered_text">
+        <!-- In the 2nd section, create 2 divs  -->
+        <div id="about_photo">
+        </div>
+        <!-- Create the 1st inner div and leave it empty -->
+        <div id="about_bio">
+            <!-- In the 2nd inner div, create 2 paragraph tags -->
+            <p>
+                <!-- Give 1st paragraph "Hi, I am firstname lastname" as its content -->
+                Hi, I am Nelly Sugu
+            </p>
+            <p>
+                <!-- In the 2nd paragraph, put a little something about yourself -->
+                I &hearts; building cool stuff & teaching
+                others how to do it
+            </p>
+        </div>
+    </section>
+
+    <!-- 3rd section -->
+    <!-- 
+        - give it a background color of #be3143
+        - give it a padding of 15px
+     -->
+    <section id="testimonies_container" class="padding_15px">
+        <!-- Create an h2 with "Testimonials" as its content -->
+        <h2 class="white_color horizontally_centered_text">Testimonials</h2>
+
+        <div class="testimonies_carousel">
+            <div id="testimonies">
+                <!-- In the 3rd section, go to http://testimonial-generator.com/index.php, create 10 testimanials for "firstname web developer" and create 10 paragphs for each testimonial-->
+                <!-- Use Bootstrap card for each card -->
+                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="user_image_container"><img class="user_image"
+                                src="https://randomuser.me/api/portraits/men/33.jpg"></div>
+                        <p class="card-text horizontally_centered_text">"You guys rock! Nelly web developer was worth a
+                            fortune to my company. Thank
+                            You!"
+                            - <span class="italic white_color">Beauregard A.</span></p>
+                    </div>
+                </div>
+
+                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="user_image_container"><img class="user_image"
+                                src="https://randomuser.me/api/portraits/women/89.jpg"></div>
+                        <p class="card-text horizontally_centered_text">"Nelly web developer impressed me on multiple
+                            levels. Nelly web developer is the next killer app."
+                            - <span class="italic white_color">Brianne H.</span></p>
+                    </div>
+                </div>
+
+                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="user_image_container"><img class="user_image"
+                                src="https://randomuser.me/api/portraits/men/5.jpg"></div>
+                        <p class="card-text horizontally_centered_text">"We have no regrets! We've seen amazing results
+                            already."
+                            - <span class="italic white_color">Marjie Y.</p>
+                    </div>
+                </div>
+
+                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="user_image_container"><img class="user_image"
+                                src="https://randomuser.me/api/portraits/women/17.jpg"></div>
+                        <p class="card-text horizontally_centered_text">"You guys rock! Thanks to Nelly web developer,
+                            we've
+                            just launched our 5th website!"
+                            - <span class="italic white_color">Carolynn W.</span></p>
+                    </div>
+                </div>
+
+                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="user_image_container"><img class="user_image"
+                                src="https://randomuser.me/api/portraits/women/15.jpg"></div>
+                        <p class="card-text horizontally_centered_text">"Buy this now. Great job, I will definitely be
+                            ordering again! Since I invested in Nelly web developer I
+                            made over 100,000 dollars profits."
+                            - <span class="italic white_color">Petunia F.</span></p>
+                    </div>
+                </div>
+
+                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="user_image_container"><img class="user_image"
+                                src="https://randomuser.me/api/portraits/men/87.jpg"></div>
+                        <p class="card-text horizontally_centered_text">"I will refer everyone I know."
+                            - <span class="italic white_color">Mohamad A.</span></p>
+                    </div>
+                </div>
+
+                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="user_image_container"><img class="user_image"
+                                src="https://randomuser.me/api/portraits/men/30.jpg"></div>
+                        <p class="card-text horizontally_centered_text">"I STRONGLY recommend Nelly web developer to
+                            EVERYONE interested in running a successful online
+                            business!
+                            We've seen amazing results already."
+                            - <span class="italic white_color">Chane D.</span></p>
+                    </div>
+                </div>
+
+                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="user_image_container"><img class="user_image"
+                                src="https://randomuser.me/api/portraits/women/88.jpg"></div>
+                        <p class="card-text horizontally_centered_text">"Definitely worth the investment. I
+                            use Nelly web developer often. You've saved our business!"
+                            - <span class="italic white_color">Karly F.</span></p>
+                    </div>
+                </div>
+
+                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="user_image_container"><img class="user_image"
+                                src="https://randomuser.me/api/portraits/men/3.jpg"></div>
+                        <p class="card-text horizontally_centered_text">"Thanks to Nelly web developer, we've just
+                            launched
+                            our 5th website! Very easy to use. I don't always
+                            clop,
+                            but when I do, it's because of Nelly web developer. I was amazed at the quality of Nelly web
+                            developer."
+                            - <span class="italic white_color">Rockwell B.</span></p>
+                    </div>
+                </div>
+
+                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="user_image_container"><img class="user_image"
+                                src="https://randomuser.me/api/portraits/women/24.jpg"></div>
+                        <p class="card-text horizontally_centered_text">"Wow what great service, I love it! Nelly web
+                            developer was worth a fortune to my company. I made back
+                            the
+                            purchase price in just 48 hours!" - <span class="italic white_color">Oralie .</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Linking JS that Bootstrap requires to work properly -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

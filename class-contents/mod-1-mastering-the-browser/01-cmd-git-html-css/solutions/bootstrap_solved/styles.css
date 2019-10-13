@@ -1,0 +1,184 @@
+#header {
+    background-color: #666;
+    padding: 2px;
+
+    /* fix the header at the top of the page */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    /* Make it be above every other element */
+    z-index: 100;
+}
+
+.spaced_out {
+    justify-content: space-between;
+}
+
+#header_brand_text {
+    line-height: 0.5;
+}
+
+.link_with_no_text_decoration {
+    text-decoration: none;
+}
+
+#about_container {
+    height: 100vh;
+    padding-top: 10%;
+
+    /* Make it a flexbox, make items center themselves in center */
+    display: flex;
+    align-items: center;
+}
+
+#about_bio {
+    /* Make it 50% to align horizontally with the photo */
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+#about_photo {
+    /* Make it 50% to align horizontally with the photo */
+    width: 50%;
+    height: 50%;
+    background-image: url('./resources/northwestern.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#testimonies_container {
+    background-color: #be3143;
+    border: 1px solid white;
+    margin-bottom: 30px;
+
+    /* Add this to make sure that it shows when we automatically scroll to it */
+    padding-top: 6rem;
+
+}
+
+/* Make the testimonies a flex box that wraps its content */
+#testimonies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: fit-content;
+}
+
+.testimonial_card {
+    border: 1px solid white;
+
+    /* Give it a better margin */
+    margin: 0px 5px 30px 0px;
+
+    /* fix the width of the card*/
+    width: 20%;
+
+    background-color: #be3143;
+}
+
+.user_image_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.user_image {
+    border-radius: 50%;
+}
+
+.inline_element {
+    display: inline;
+}
+
+.margin_2px {
+    margin: 2px;
+}
+
+.margin_15px {
+    margin: 15px;
+}
+
+.no_list_style {
+    list-style: none;
+}
+
+.padding_15px {
+    padding: 15px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.white_color {
+    color: white !important;
+}
+
+.horizontally_centered_text {
+    text-align: center;
+}
+
+@media screen and (max-width: 698px) {
+
+    /* 
+        Change the about container flex direction to column
+        and make the photo and bio take both 100% width
+     */
+    #about_container {
+        flex-direction: column;
+    }
+
+    #about_photo,
+    #about_bio {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 423px) {
+
+    /* 
+    At < 423px breakpoint, make the testimonial cards take up 100% of the width
+    */
+    .testimonial_card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 423px) and (max-width: 500px) {
+
+    /* 
+    At < 500px breakpoint, make the testimonial cards take up 40% of the width
+    */
+    .testimonial_card {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+
+    /* 
+    At < 600px breakpoint, make the testimonial cards take up 20% of the width
+    */
+    .testimonial_card {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    /* 
+    At > 700px breakpoint, make the testimonial cards overflow horizontally
+    */
+    .testimonies_carousel {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    #testimonies {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+}
