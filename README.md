@@ -14,6 +14,15 @@ The languages you learn matters least. Programming is about abstractions and exp
 
 * [Module 1: Mastering the browser](./class-contents/mod-1-mastering-the-browser)
     - _Timeline_: Weeks 1-4
+    - Slides:
+        * [Intros, Fullstack Overview, CLI & Git  ](https://docs.google.com/presentation/d/1TfxrbzuuU5eurts-eBP6ot7-_w3rSPoN2C18win1ChE/edit?usp=sharing)
+
+        * [HTML & CSS](https://docs.google.com/presentation/d/14_PdCWlP3p7EsZu6-TDxGMkY8DtwQ4DZBYAVa4oaq78/edit?usp=sharing)
+
+        * [Responsive CSS](https://docs.google.com/presentation/d/1DVmYKFrz2-7Q4DJvGQFpfut09s5Tb3kL3DPEqIC_Ol4/edit?usp=sharing)
+
+        * [GitHub Pages & Review](https://docs.google.com/presentation/d/1YtMQ3XIbu-w3K6SLSWgWfTOGEci7HIpCqxwmC23eCJ8/edit?usp=sharing)
+        
     - _Deliverables_:
         * [Homework 1: Personal portfolio](./class-contents/mod-1-mastering-the-browser/01-cmd-git-html-css/deliverables/hmwk-1-personal-portfolio.md)
 
