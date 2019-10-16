@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>More scopes</title>
+</head>
+
+<body>
+    <script>
+        var firstName = "John";
+        var lastName = "Doe";
+
+        if (true) {
+            var firstName = "Jack";
+            var lastName = "Baueur";
+            console.log(`${firstName} ${lastName} can kick SpiderMan's behind any day!`);
+        }
+
+        console.log(`Who is ${firstName} ${lastName}?`)
+    </script>
+</body>
+
+</html>
