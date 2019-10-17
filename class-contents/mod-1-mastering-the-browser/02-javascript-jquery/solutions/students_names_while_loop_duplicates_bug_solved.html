@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Students Names While Loop Duplicate Bug Fixed</title>
+</head>
+
+<body>
+    <script>
+        var studentsNames = [];
+        var classSize = 3;
+
+        while (studentsNames.length < classSize) {
+            // Create a variable to hold the number of entered students and update it every time we enter a new student
+            var numOfEntereStudents = studentsNames.length;
+
+            // Prompt with the number of students already entered
+            var newStudentName = prompt(
+                `Enter the name of a student. \n${numOfEntereStudents} out of ${classSize} students already entered`
+            );
+
+            // Make sure we can't have duplicates
+            var hasNewStudentNameBeenEntered = studentsNames.includes(
+                newStudentName); // will be true if yes and false if not
+
+            // Only push the new student name to the studentsName array if we don't already have it
+            if (!hasNewStudentNameBeenEntered) {
+                studentsNames.push(newStudentName);
+            }
+        }
+
+        alert(`The students in this class are: ${studentsNames.join(", ")}`);
+    </script>
+</body>
+
+</html>

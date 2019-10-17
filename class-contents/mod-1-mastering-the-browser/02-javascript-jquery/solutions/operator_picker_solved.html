@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Operator picker</title>
+</head>
+
+<body>
+    <script>
+        var numbers = [35, 13, -20, 89, 117, 52, 63, -126, 7, 49];
+
+        var operator = prompt("What operator do you want to use? Enter +, - , * , / or 'random'");
+
+        switch (operator) {
+            case "+":
+                // Add all the numbers up and alert their sum
+                var sum = 0;
+                for (var i = 0; i < numbers.length; i++) {
+                    sum += numbers[i];
+                }
+                alert(`${numbers.join(` ${operator} `)} = ${sum}`)
+
+                break;
+
+            case "-":
+                // Find the difference of all the numbers and alert it
+                var difference = 0;
+                for (var i = 0; i < numbers.length; i++) {
+                    difference -= numbers[i];
+                }
+                alert(`${numbers.join(` ${operator} `)} = ${difference}`)
+
+                break;
+
+            case "*":
+                // Find the product of all the numbers and alert it
+                var product = 1;
+                for (var i = 0; i < numbers.length; i++) {
+                    product *= numbers[i];
+                }
+                alert(`${numbers.join(` ${operator} `)} = ${product}`)
+
+                break;
+
+            case "/":
+                // Find the quotient of all the numbers and alert it
+                var quotient = 1;
+                for (var i = 0; i < numbers.length; i++) {
+
+                    if (numbers[i] !== 0) {
+                        quotient /= numbers[i];
+                    }
+
+                }
+                alert(`${numbers.join(` ${operator} `)} = ${quotient}`)
+
+                break;
+
+            case "random":
+
+            default:
+                // Find a random operator and use it
+                var operators = ['+', '-', '*', '/', '%'];
+
+                var randomIdx = Math.floor(Math.random() * operators.length);
+
+                var randomOperator = operators[randomIdx];
+
+                switch (randomOperator) {
+                    case "+":
+                        // Add all the numbers up and alert their sum
+                        var sum = 0;
+                        for (var i = 0; i < numbers.length; i++) {
+                            sum += numbers[i];
+                        }
+                        alert(`${numbers.join(` ${randomOperator} `)} = ${sum}`)
+
+                        break;
+
+                    case "-":
+                        // Find the difference of all the numbers and alert it
+                        var difference = 0;
+                        for (var i = 0; i < numbers.length; i++) {
+                            difference -= numbers[i];
+                        }
+                        alert(`${numbers.join(` ${randomOperator} `)} = ${difference}`)
+
+                        break;
+
+                    case "*":
+                        // Find the product of all the numbers and alert it
+                        var product = 1;
+                        for (var i = 0; i < numbers.length; i++) {
+                            product *= numbers[i];
+                        }
+                        alert(`${numbers.join(` ${randomOperator} `)} = ${product}`)
+
+                        break;
+
+                    case "/":
+                        // Find the quotient of all the numbers and alert it
+                        var quotient = 1;
+                        for (var i = 0; i < numbers.length; i++) {
+
+                            if (numbers[i] !== 0) {
+                                quotient /= numbers[i];
+                            }
+
+                        }
+                        alert(`${numbers.join(` ${randomOperator} `)} = ${quotient}`)
+
+                        break;
+
+                }
+
+                break;
+        }
+    </script>
+</body>
+
+</html>

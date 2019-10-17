@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var numbers = [5, 3, -2, 8, 11, 7, 9, 6, 12, 4];
+
+        var userInput = prompt("Enter an operation +, -, *, /, or 'random'");
+
+        if (userInput === '+') {
+            smartOperator('+', numbers)
+        } else if (userInput === '-') {
+            smartOperator("-", numbers)
+        } else if (userInput === '*') {
+            smartOperator('*', numbers)
+        } else if (userInput === '/') {
+            smartOperator("/", numbers)
+        } else if (userInput === 'random') {
+            // random
+            var operators = ['+', '-', '*', '/'];
+            var randIdx = Math.floor(Math.random() * operators.length);
+            var randOperator = operators[randIdx];
+
+            smartOperator(randOperator, numbers)
+        }
+
+        function smartOperator(operator, arrayOfNumbers) {
+            // Takes +, -, * and / and alerts the sum, difference, product, or quotient respectively
+
+            if (operator === '+') {
+                // sum
+                var sum = 0;
+                for (var index = 0; index < arrayOfNumbers.length; index++) {
+                    sum += arrayOfNumbers[index];
+
+                }
+                alert(`The sum of ${arrayOfNumbers.toString()} is ${sum}`)
+            } else if (operator === '-') {
+                // difference
+                var difference = 0;
+                for (var index = 0; index < arrayOfNumbers.length; index++) {
+                    difference -= arrayOfNumbers[index];
+
+                }
+                alert(`The difference of ${arrayOfNumbers.toString()} is ${difference}`)
+            } else if (operator === '*') {
+                // product
+                var product = 1;
+                for (var index = 0; index < arrayOfNumbers.length; index++) {
+                    product *= arrayOfNumbers[index];
+
+                }
+                alert(`The product of ${arrayOfNumbers.toString()} is ${product}`)
+            } else if (operator === '/') {
+                // quotient
+                var quotient = 1;
+                for (var index = 0; index < arrayOfNumbers.length; index++) {
+                    quotient /= arrayOfNumbers[index];
+
+                }
+                alert(`The quotient of ${arrayOfNumbers.toString()} is ${quotient}`)
+            }
+        }
+    </script>
+</body>
+
+</html>

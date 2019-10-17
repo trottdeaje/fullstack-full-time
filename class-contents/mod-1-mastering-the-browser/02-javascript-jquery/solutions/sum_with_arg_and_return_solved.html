@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sum with argument and return</title>
+</head>
+
+<body>
+    <script>
+        var array1 = [1, 2, 3];
+
+        // Call getSum with array1
+        var sum1 = getSum(array1);
+        console.log(sum1);
+
+        var array2 = [9, 10, 11, 5];
+
+        // Call getSum with array2
+        var sum2 = getSum(array2);
+        console.log(sum2);
+
+        // Take numbers array as argument
+        // Returns sum of the numbers
+        function getSum(numbers) {
+            var sum = 0;
+            for (var index = 0; index < numbers.length; index++) {
+                sum += numbers[index];
+            }
+            return sum;
+        }
+    </script>
+</body>
+
+</html>

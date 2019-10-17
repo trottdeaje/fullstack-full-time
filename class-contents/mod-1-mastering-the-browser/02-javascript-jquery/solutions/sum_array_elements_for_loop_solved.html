@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array Elements Sum For Loop</title>
+</head>
+
+<body>
+    <script>
+        // Create an array with the given numbers
+        var numbers = [67, -12, -56, 123, -47];
+
+        // Start with an initial sum of 0
+        var sum = 0;
+
+        // Loop over the array and add the element at the current index to the sum until the array is exhausted
+        for (var currentIdx = 0; currentIdx < numbers.length; currentIdx++) {
+            // Add the element at the current index to the sum
+            sum += numbers[currentIdx];
+        }
+
+        // When the array is exhausted, alert the user with the sum
+        alert(`The sum of ${numbers.join(", ")} is ${sum}`)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Students Names For Loop</title>
+</head>
+
+<body>
+    <script>
+        // Declares and initializes an empty array called studentsNames
+        var studentsNames = [];
+
+        // Uses for loop to prompt user for a new student name and adds him/her to the studentsNames array as long as we haven't reached the class size
+        for (var idx = 0; idx < classSize; idx++) {
+            var newStudentName = prompt("Enter the name of a student");
+
+            // Adds the new student name to the studentsNames array
+            studentsNames[idx] = newStudentName;
+        }
+
+        // When we've added all the students that our class can take, alert the user with a message that shows them a comma separated list of all of the students they added
+        alert(`The students in this class are: ${studentsNames.join(", ")}`);
+    </script>
+</body>
+
+</html>

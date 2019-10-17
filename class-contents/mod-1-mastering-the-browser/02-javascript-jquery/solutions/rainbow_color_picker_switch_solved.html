@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rainbow Color Picker</title>
+</head>
+
+<body>
+    <script>
+        /*
+        https://simple.wikipedia.org/wiki/Rainbow
+        The seven colors of the rainbow with their hex codes are:
+        - Red       #FF0000
+        - Orange    #FF7F00
+        - Yellow    #FFFF00
+        - Green     #00FF00
+        - Blue      #0000FF
+        - Indigo    #4B0082
+        - Violet    #8B00FF
+        */
+
+        // Prompt user for color name and store their input into a variable to use in our code
+        var inputColorName = prompt(
+            "What color of the rainbow do the hex code for (Red, Orange, Yellow, Green, Blue, Indigo, Violet)? Enter the word 'Random' to get a random color"
+        );
+
+        switch (inputColorName.toLowerCase()) {
+            case "red":
+                var redHexCode = '#FF0000';
+
+                // Show the color's hex code in an alert
+                alert(`The hex code for ${inputColorName} is: ${redHexCode}`);
+
+                // BONUS: Change the body background color to the chosen color
+                document.querySelector("body").style.backgroundColor = redHexCode;
+
+                break;
+
+            case "orange":
+                var orangeHexCode = '#FF7F00';
+
+                // Show the color's hex code in an alert
+                alert(`The hex code for ${inputColorName} is: ${orangeHexCode}`);
+
+                // BONUS: Change the body background color to the chosen color
+                document.querySelector("body").style.backgroundColor = orangeHexCode;
+
+                break;
+
+            case "yellow":
+                var yellowHexCode = '#FFFF00';
+
+                // Show the color's hex code in an alert
+                alert(`The hex code for ${inputColorName} is: ${yellowHexCode}`);
+
+                // BONUS: Change the body background color to the chosen color
+                document.querySelector("body").style.backgroundColor = yellowHexCode;
+
+                break;
+
+            case "green":
+                var greenHexCode = '#00FF00';
+
+                // Show the color's hex code in an alert
+                alert(`The hex code for ${inputColorName} is: ${greenHexCode}`);
+
+                // BONUS: Change the body background color to the chosen color
+                document.querySelector("body").style.backgroundColor = greenHexCode;
+
+                break;
+
+            case "blue":
+                var blueHexCode = '#0000FF';
+
+                // Show the color's hex code in an alert
+                alert(`The hex code for ${inputColorName} is: ${blueHexCode}`);
+
+                // BONUS: Change the body background color to the chosen color
+                document.querySelector("body").style.backgroundColor = blueHexCode;
+
+                break;
+
+            case "indigo":
+                var indigoHexCode = '#4B0082';
+
+                // Show the color's hex code in an alert
+                alert(`The hex code for ${inputColorName} is: #4B0082`);
+
+                // BONUS: Change the body background color to the chosen color
+                document.querySelector("body").style.backgroundColor = indigoHexCode;
+
+                break;
+
+            case "violet":
+                var violetHexCode = '#8B00FF';
+
+                // Show the color's hex code in an alert
+                alert(`The hex code for ${inputColorName} is: ${violetHexCode}`);
+
+                // BONUS: Change the body background color to the chosen color
+                document.querySelector("body").style.backgroundColor = violetHexCode;
+
+                break;
+
+            case "random":
+                // The letters used in hex color codes
+                var letters = '0123456789ABCDEF';
+
+                // Build a string with random hex code letters
+                var randomColor =
+                    `#${letters[Math.floor(Math.random() * 16)]}${letters[Math.floor(Math.random() * 16)]}${letters[Math.floor(Math.random() * 16)]}${letters[Math.floor(Math.random() * 16)]}${letters[Math.floor(Math.random() * 16)]}${letters[Math.floor(Math.random() * 16)]}`;
+
+                // Show the color's hex code in an alert
+                alert(`Your random color hex code is: ${randomColor}`)
+
+                // BONUS: Change the body background color to the chosen color
+                document.querySelector("body").style.backgroundColor = randomColor;
+
+                break;
+
+            default:
+                // User entered unexpected input
+                // Show user alert with message
+                alert(
+                    "Invalid input. \nEnter one of the colors of the rainbow (Red, Orange, Yellow, Green, Blue, Indigo, Violet) or the word 'Random'"
+                )
+                break;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Students Names While Loop With Comments</title>
+</head>
+
+<body>
+    <script>
+        var studentsNames = []; // Declares and initializes an empty array called studentsNames
+
+        // Declares a constant for the class size and sets it to 3
+        // This is best practice when you have constants in your code
+        // Instead of having random number scatter through your code, create variables to help other developers know what those constants represent
+        var classSize = 3;
+
+        // As long as we haven't reached the total class size, keep prompting the user for new student names and add the new student name to the studentsNames array
+        while (studentsNames.length < classSize) {
+            var newStudentName = prompt("Enter the name of a student"); // Prompts the user for a new student name
+            studentsNames.push(newStudentName); // Pushes the new student name to the studentsNames array
+        }
+
+        // When we've added all the students that our class can take, alert the user with a message that shows them a comma separated list of all of the students they added
+        alert(`The students in this class are: ${studentsNames.join(", ")}`);
+    </script>
+</body>
+
+</html>

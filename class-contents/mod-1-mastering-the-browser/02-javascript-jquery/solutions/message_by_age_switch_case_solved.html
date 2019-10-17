@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Message By Age (switch-case)</title>
+</head>
+
+<body>
+    <script>
+        // Prompt a user for their age 
+        var age = prompt("What is your age?");
+
+        // prompt returns a string but we need a number to do math with
+        // Cast the string to the number
+        age = Number(age)
+
+        // Alert user with a greeting specific to their age
+        /*
+            Age groups:
+            [0 - 1 [ 		: baby
+            [1 - 3 [ 		: toddler
+            [3 - 5 [ 		: preschooler
+            [5 - 12 [ 		: gradeschooler
+            [12 - 18 [		: teen
+            [18 - 21 [		: young adult
+            21 and above	: adult
+        */
+        switch (true) {
+            case (age < 1):
+                alert("Hi, you are a baby");
+                break;
+
+            case (age < 3):
+                alert("Hello toddler!");
+                break;
+
+            case (age < 5):
+                alert("How is preschool?");
+                break;
+
+            case (age < 12):
+                alert("What grade are you in?");
+                break;
+
+            case (age < 18):
+                alert("Hello teenage!");
+                break;
+
+            case (age < 21):
+                alert("You are now a young adult!");
+                break;
+
+            default:
+                alert("You are now an adult and responsible for everything you do in life");
+                break;
+        }
+    </script>
+</body>
+
+</html>

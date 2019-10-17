@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Operator picker</title>
+</head>
+
+<body>
+    <script>
+        var numbers = [35, 13, -20, 89, 117, 52, 63, -126, 7, 49];
+
+        var operator = prompt("What operator do you want to use? Enter +, - , * , / or 'random'");
+
+        switch (operator) {
+            case '+':
+            case '-':
+            case '*':
+            case '/':
+                calculateResultByOperator(numbers, operator);
+                break;
+
+            case 'random':
+            default:
+                // Find a random operator and use it
+                var operators = ['+', '-', '*', '/', '%'];
+                var randomIdx = Math.floor(Math.random() * operators.length);
+                var randomOperator = operators[randomIdx];
+
+                calculateResultByOperator(numbers, randomOperator);
+                break;
+        }
+
+        function calculateResultByOperator(listOfNumbers, op) {
+            var initialResult = 0;
+
+            if (op === '*' || op === '/') {
+                initialResult = 1;
+            }
+
+            var result = initialResult;
+
+            for (var i = 0; i < listOfNumbers.length; i++) {
+                switch (op) {
+                    case '+':
+                        result += listOfNumbers[i];
+                        break;
+
+                    case '-':
+                        result -= listOfNumbers[i];
+                        break;
+
+                    case '*':
+                        result *= listOfNumbers[i];
+                        break;
+
+                    case '/':
+                        result /= listOfNumbers[i];
+                        break;
+                }
+            }
+
+            alert(`${listOfNumbers.join(` ${op} `)} = ${result}`);
+
+        }
+    </script>
+</body>
+
+</html>
