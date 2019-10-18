@@ -97,6 +97,6 @@ Your portfolio page should be responsive to accomodate different screen sizes as
             - That if you forget to include the jQuery script, some Bootstrap features like collapsing the navbar won't work
 
 3. Deployment
-Deploy your portfolio page to [Github pages](https://pages.github.com/) and submit your project link in the [`#hmwk-1-personal-portfolio-page-submissions` Slack channel](https://app.slack.com/client/TLKSMB8R4/CMK807S0K)
+Deploy your portfolio page to [Github pages](https://pages.github.com/) and submit your project link in the [`#homework-1-submissions` Slack channel](https://longtailschool.slack.com/messages/CP6JJ4J8K)
 
 4. HAVE FUN AND HELP EACH OTHER OUT!

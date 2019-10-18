@@ -135,7 +135,7 @@ NOTE: Now that you are almost seasoned developers, these instructions and the on
                         - Use jQuery to dynamical insert `div#top_10_songs_content` in your placeholder div that you created to hold the top 10 songs in the selected country
 
 3. Deployment
-Deploy your portfolio page to [Github pages](https://pages.github.com/) and submit your project link in the [`#hmwk-3-top-10-songs-by-country-page-submissions` Slack channel](https://app.slack.com/client/TLKSMB8R4/CMQMM8QTD)
+Deploy your portfolio page to [Github pages](https://pages.github.com/) and submit your project link in the [`#homework-3-submissions` Slack channel](https://longtailschool.slack.com/messages/CPKU7S0BZ)
 
 
 4. PROVIDED HELPER FUNCTIONS

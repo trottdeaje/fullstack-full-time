@@ -48,7 +48,7 @@ As shown in the page overview gif above, in this homework you are to build a pag
         * The `scripts.js` file has starter code that the previous developer wrote and `YOUR CODE GOES HERE` sections for you to add your code to make the page behave how the client wants. 
 
 3. Deployment
-    * Deploy your portfolio page to [Github pages](https://pages.github.com/) and submit your project link in the [`#hmwk-4-best-pride-parade-photo-vote` Slack channel](https://app.slack.com/client/TLKSMB8R4/CP51XL9M0)
+    * Deploy your portfolio page to [Github pages](https://pages.github.com/) and submit your project link in the [`#homework-4-submissions` Slack channel](https://longtailschool.slack.com/messages/CP51XL9M0)
 
 
 4. HAVE FUN AND HELP EACH OTHER OUT!

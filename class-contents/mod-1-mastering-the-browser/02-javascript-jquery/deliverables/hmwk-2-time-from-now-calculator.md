@@ -113,6 +113,6 @@ When you are done, your file structure should look like the picture below
         - Allow your users to choose between either a 24hr or 12hr format for their time
 
 3. Deployment
-Deploy your portfolio page to [Github pages](https://pages.github.com/) and submit your project link in the [`#hmwk-2-time-from-now-calculator-page-submissions` Slack channel](https://app.slack.com/client/TLKSMB8R4/CMY9QDHDW)
+Deploy your portfolio page to [Github pages](https://pages.github.com/) and submit your project link in the [`#homework-2-submissions` Slack channel](https://longtailschool.slack.com/messages/CPBKHUDR7)
 
 4. HAVE FUN AND HELP EACH OTHER OUT!
