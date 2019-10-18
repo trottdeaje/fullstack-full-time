@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS setInterval</title>
+</head>
+
+<body>
+    <script>
+        // Generated from https://quotes-generator.com/quotes-generator.php
+        var inspirationalQuotes = [
+            "When you let go of that which is holding you down you can rise to your highest potential. -Avina Celeste",
+            "Even if I knew that tomorrow the world would go to pieces, I would still plant my apple tree. -Martin Luther",
+            "We see things not as they are, we see them as WE are. - Morrie Camhi",
+            "May your vision pull you until you have no choice but to do it. Keep pressing! Never give up on your vision. Never give up on your dreams! You are worth it! -J.M. Guy",
+            "Pain is temporary. Quitting lasts forever. -Lance Armstrong"
+        ];
+
+
+        if (confirm("Press OK to get a inspirational quote generated for you every 5 seconds")) {
+            // Alert a random quote every 5 seconds
+
+            /* YOUR CODE GOES HERE */
+        }
+
+        function pickRandomQuote(quotes) {
+            // Create a random index between 0 and quotes.length -1
+            var randIdx = Math.floor(Math.random() * quotes.length);
+
+            // Use random index to get a random quote
+            var randQuote = quotes[randIdx];
+
+            // return the random quote
+            return randQuote;
+        }
+    </script>
+</body>
+
+</html>
