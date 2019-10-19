@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Access & Modify Object</title>
+</head>
+
+<body>
+    <script>
+        // Information about the Hiking Bermuda book by Cecile Davidson
+        var hikingBermuda = {
+            author: "Cecile Davidson",
+            price: 17.95,
+            title: "Hiking Bermuda",
+            sections: {
+                0: {
+                    sectionName: "Preface",
+                    chapters: [{
+                        name: "Trail Locator",
+                        page: 12
+                    }]
+                },
+                1: {
+                    sectionName: "Introduction",
+                    chapters: [{
+                            name: "Map Legend",
+                            page: 24
+                        },
+                        {
+                            name: "Rating System",
+                            page: 22
+                        }
+                    ]
+                },
+                2: {
+                    sectionName: "West End",
+                    chapters: [{
+                            name: "Botanical Gardens",
+                            page: 63
+                        },
+                        {
+                            name: "Rockaway, Whale Bay Park",
+                            page: 45
+                        },
+                        {
+                            name: "Somerset Bridge, Hog Bay Park",
+                            page: 39
+                        }
+                    ]
+                }
+            },
+            trails: [{
+                    name: "Somerset to Hamilton Railway Trail",
+                    page: 75,
+                    section: "West End",
+                    distanceInMiles: 11.7,
+                    rating: "Hardy"
+                },
+                {
+                    name: "City of Hamilton",
+                    page: 69,
+                    section: "West End",
+                    distanceInMiles: 2.4,
+                    rating: "Easy"
+                },
+                {
+                    name: "St. George's Point",
+                    page: 131,
+                    section: "East End",
+                    distanceInMiles: 3.6,
+                    rating: "Moderate"
+                },
+                {
+                    name: "South Shore Beaches",
+                    page: 53,
+                    section: "West End",
+                    distanceInMiles: 5.0,
+                    rating: "Moderate"
+                },
+            ]
+        }
+
+        console.log(`Title BEFORE: ${hikingBermuda.title}`)
+        // Modify the title of book from "Hiking Bermuda" to "Hiking Bermuda, 20 Nature Walks and Day Hikes"
+        hikingBermuda.title = "Hiking Bermuda, 20 Nature Walks and Day Hikes";
+
+        console.log(`Title AFTER: ${hikingBermuda.title}`)
+
+        // Add a publisher property with "VegaNet Publications" as its value and console log it
+        hikingBermuda.publisher = "VegaNet Publications";
+        console.log(`Publisher: ${hikingBermuda.publisher}`);
+
+        // Change the page of the 1st chapter in the Preface section to 11 instead of 12 and console log it
+        hikingBermuda.sections[0].chapters[0].page = 12;
+        console.log(`Preface section chapter 1 page number: ${hikingBermuda.sections[0].chapters[0].page}`);
+
+        /* Add another section property with 3 as its key and the value an object with the following properties:
+            sectionName: "East End", 
+            chapters: [{name: "Abbot's Cliff", page: 91}, {name: "St. David's Point", page: 105}, {name: "Spittal Pond", page:101}, {name: "Old Town of St. George" , page: 123}]
+        */
+        hikingBermuda.sections[3] = {
+            sectionName: "East End",
+            chapters: [{
+                name: "Abbot's Cliff",
+                page: 91
+            }, {
+                name: "St. David's Point",
+                page: 105
+            }, {
+                name: "Spittal Pond",
+                page: 101
+            }, {
+                name: "Old Town of St. George",
+                page: 123
+            }]
+        }
+
+        // console log the number of chapters in the newly added East End section
+        console.log(`East End section # of chapters: ${hikingBermuda.sections[3].chapters.length}`);
+
+        /* Add another trail with the following properties:
+            name: "Abbot's Cliff", page: 91, section: "East End", distanceInMiles: 1.1, rating: "Moderate"
+        */
+        var newTrail = {
+            name: "Abbot's Cliff",
+            page: 91,
+            section: "East End",
+            distanceInMiles: 1.1,
+            rating: "Moderate"
+        };
+        hikingBermuda.trails.push(newTrail);
+
+        // console log the distance in miles of the newly added trail
+        console.log(
+            `Distance in mi of Abbot's Cliff trail: ${hikingBermuda.trails[hikingBermuda.trails.length - 1].distanceInMiles}`
+        );
+
+        // Add a distanceInKm property to every trail with a value of what its distanceInMiles is converted to km
+        var trailsWithDistanceInKm = hikingBermuda.trails.map(trail => {
+            var KM_PER_MILE = 1.60934;
+            var distanceInKm = trail.distanceInMiles * KM_PER_MILE;
+            distanceInKm = Number(distanceInKm.toFixed(
+                1
+            )); // use Number() to cast distance.toFixed(1) to a number because it returns a string by default (see MDN toFixed for documentation)
+
+            return {
+                ...trail,
+                distanceInKm
+            };
+
+        })
+        hikingBermuda.trails = trailsWithDistanceInKm;
+
+        // console log all the trails
+        console.log("All the trails")
+        console.log(hikingBermuda.trails)
+
+        // console log the distance in km of the 4th trail
+        console.log(`Distance in km of 4th trail: ${hikingBermuda.trails[3].distanceInKm}`);
+    </script>
+</body>
+
+</html>

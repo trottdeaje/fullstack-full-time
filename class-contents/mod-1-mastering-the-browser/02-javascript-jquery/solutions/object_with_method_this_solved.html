@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Object With Method</title>
+</head>
+
+<body>
+    <script>
+        // A cat object with a noise property with a value of "Meou!" and a makeNoise method that console logs the cat's noise
+        var cat = {
+            noise: "Meou!",
+            makeNoise: function () {
+                console.log(this.noise); // makeNoise method console logs this.noise
+            }
+        }
+
+        // Call the makeNoise method
+        console.log("makeNoise BEFORE the overwrite")
+        cat.makeNoise();
+
+        // Overwrite the makeNoise implementation and make it console log "Meow Meow!" instead
+        cat.makeNoise = function () {
+            console.log("Meow Meow!")
+        }
+
+        // Call the makeNoise method
+        console.log("makeNoise AFTER the overwrite")
+        cat.makeNoise();
+
+        // A cube object with a area method and an edge property with a value of 3
+        var cube = {
+            edge: 3,
+            area: function () {
+                return this.edge * this.edge; // area method returns this.edge squared
+            }
+        }
+
+        // Call the area method and use its return value in a console logs to make sure that i returned the expected value
+        console.log(`Area of a cube with an edge of 3 = ${cube.area()}`);
+
+        //Add a volume method to the cube object that returns this.edge cubed
+        cube.volume = function () {
+            return this.edge * this.edge * this.edge;
+        }
+
+        // Call the volume method and use its return value in a console logs to make sure that i returned the expected value
+        console.log(`Volume of a cube with an edge of 3 = ${cube.volume()}`)
+    </script>
+</body>
+
+</html>
