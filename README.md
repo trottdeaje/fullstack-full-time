@@ -23,7 +23,9 @@ The languages you learn matters least. Programming is about abstractions and exp
 
         * [GitHub Pages & Review](https://docs.google.com/presentation/d/1YtMQ3XIbu-w3K6SLSWgWfTOGEci7HIpCqxwmC23eCJ8/edit?usp=sharing)
 
-        * [Intro to Javascript Numbers, Strings, Bools, Loops, and Functions](https://docs.google.com/presentation/d/1wxaW5oG0dp46wwVjQ9C5L_iMcWsgnqa1wDmJCtBlv5U/edit?usp=sharing)
+        * [Intro to Javascript Part ONE: Numbers, Strings, Bools, Array, Loops, and Functions](https://docs.google.com/presentation/d/1wxaW5oG0dp46wwVjQ9C5L_iMcWsgnqa1wDmJCtBlv5U/edit?usp=sharing)
+
+        * [Intro to Javascript Part TWO: More Array methods, Objects, Scopes](https://docs.google.com/presentation/d/15hkpV9rLISn_q1k7j2nBFeZcUsPDgfR9x5fDG2G1hHY/edit?usp=sharing)
         
     - _Deliverables_:
         * [Homework 1: Personal portfolio](./class-contents/mod-1-mastering-the-browser/01-cmd-git-html-css/deliverables/hmwk-1-personal-portfolio.md)
