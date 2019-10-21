@@ -23,9 +23,19 @@
 
         if (confirm("Press OK to get a inspirational quote generated for you in 5 seconds")) {
             // Alert a random quote after 5 seconds
+            setTimeout(function () {
+                alert(pickRandomQuote(inspirationalQuotes))
+            }, 1 * 1000);
 
-            /*  YOUR CODE GOES HERE */
+
+
         }
+
+        function alertRandom() {
+
+        }
+
+
 
         function pickRandomQuote(quotes) {
             // Create a random index between 0 and quotes.length -1
