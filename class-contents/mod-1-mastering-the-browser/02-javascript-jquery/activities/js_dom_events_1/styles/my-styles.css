@@ -9,6 +9,12 @@ body {
     justify-content: center;
 }
 
+.btns_container {
+    width: 20em;
+    display: flex;
+    justify-content: space-between;
+}
+
 #click_count_container {
     margin: 2em;
     width: 20em;
