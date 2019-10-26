@@ -1,0 +1,40 @@
+.my_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+}
+
+.btns_container {
+    width: 20em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#click_count_container {
+    margin: 2em;
+    width: 20em;
+    height: 20em;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+}
+
+#click_count_header {
+    width: 100%;
+    margin-top: 2em;
+    padding: 1.5em;
+    color: white;
+}
+
+#click_count {
+    margin: 1.5em;
+    padding: 1.5em;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+}
